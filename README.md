@@ -758,39 +758,51 @@ This separates **descriptive analytics** from **causal marketing measurement** a
 
 ## 11. Power BI Dashboard
 
-The final Power BI solution is organized into seven analytical pages:
+The project was developed as an interactive Power BI dashboard consisting of seven analytical pages:
 
-| Dashboard Page                            | Purpose                                                                                               |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Executive Overview**                    | High-level view of sales, customers, baskets, product performance, and marketing opportunities        |
-| **Customer & Basket Analysis**            | Customer frequency, basket size, basket value, and customer-level purchase detail                     |
-| **Product Performance**                   | Department, commodity, sub-commodity, and product-level performance                                   |
-| **Product Affinity & Association Rules**  | Product-pair relationships using support, confidence, and lift                                        |
-| **Customer Segments & Purchase Patterns** | Customer frequency segments, sales contribution, basket behavior, and customer value                  |
-| **Marketing & Promotion Analysis**        | Campaign reach, campaign structure, campaign timing, coupon redemption, and promotional participation |
-| **Cross-Sell & Bundling Opportunities**   | Translation of product associations into potential cross-sell and bundle opportunities                |
+1. Executive Overview
+2. Customer & Basket Analysis
+3. Product Performance
+4. Product Affinity & Association Rules
+5. Customer Segments & Purchase Patterns
+6. Marketing & Promotion Analysis
+7. Cross-Sell & Bundling Opportunities
 
-### Dashboard Design Approach
+The dashboard was built entirely in Power BI using Power Query, DAX, data modeling, and interactive visualizations.
 
-The dashboard follows a decision-oriented structure:
+### Dashboard Screenshots
 
-```text id="6a5prx"
-Executive Summary
-      ↓
-Customer & Basket Behavior
-      ↓
-Product Performance
-      ↓
-Product Affinity
-      ↓
-Customer Segmentation
-      ↓
-Marketing & Promotion Context
-      ↓
-Cross-Sell & Bundling Actions
-```
+#### Executive Overview
+![Executive Overview](Screenshots/01_Executive_Overview.png)
 
-The detailed pages allow users to move from high-level business performance into product relationships and potential marketing actions.
+#### Customer & Basket Analysis
+![Customer & Basket Analysis](Screenshots/02_Customer_Basket_Analysis.png)
+
+#### Product Performance
+![Product Performance](Screenshots/03_Product_Performance.png)
+
+#### Product Affinity & Association Rules
+![Product Affinity & Association Rules](Screenshots/04_Product_Affinity_Association_Rules.png)
+
+#### Customer Segments & Purchase Patterns
+![Customer Segments & Purchase Patterns](Screenshots/05_Customer_Segments_Purchase_Patterns.png)
+
+#### Marketing & Promotion Analysis
+![Marketing & Promotion Analysis](Screenshots/06_Marketing_Promotion_Analysis.png)
+
+#### Cross-Sell & Bundling Opportunities
+![Cross-Sell & Bundling Opportunities](Screenshots/07_Cross_Sell_Bundling_Opportunities.png)
+
+### Power BI File
+
+The `.pbix` file is not included in this GitHub repository because of its large file size.
+
+The repository instead provides the dashboard screenshots, analytical methodology, documentation, business findings, and project structure needed to understand and evaluate the solution.
+
+The original `.pbix` file is retained locally as:
+
+`Customer_Purchase_Intelligence.pbix`
+
 
 ## 12. Tools & Skills
 
